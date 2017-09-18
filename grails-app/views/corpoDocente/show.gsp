@@ -23,6 +23,51 @@
 			</g:if>
 			<ol class="property-list corpoDocente">
 			
+				<g:if test="${corpoDocenteInstance?.cargo}">
+				<li class="fieldcontain">
+					<span id="cargo-label" class="property-label"><g:message code="corpoDocente.cargo.label" default="Cargo" /></span>
+					
+						<span class="property-value" aria-labelledby="cargo-label"><g:fieldValue bean="${corpoDocenteInstance}" field="cargo"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${corpoDocenteInstance?.disciplina}">
+				<li class="fieldcontain">
+					<span id="disciplina-label" class="property-label"><g:message code="corpoDocente.disciplina.label" default="Disciplina" /></span>
+					
+						<span class="property-value" aria-labelledby="disciplina-label"><g:fieldValue bean="${corpoDocenteInstance}" field="disciplina"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${corpoDocenteInstance?.idade}">
+				<li class="fieldcontain">
+					<span id="idade-label" class="property-label"><g:message code="corpoDocente.idade.label" default="Idade" /></span>
+					
+						<span class="property-value" aria-labelledby="idade-label"><g:fieldValue bean="${corpoDocenteInstance}" field="idade"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${corpoDocenteInstance?.nome}">
+				<li class="fieldcontain">
+					<span id="nome-label" class="property-label"><g:message code="corpoDocente.nome.label" default="Nome" /></span>
+					
+						<span class="property-value" aria-labelledby="nome-label"><g:fieldValue bean="${corpoDocenteInstance}" field="nome"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${corpoDocenteInstance?.sexo}">
+				<li class="fieldcontain">
+					<span id="sexo-label" class="property-label"><g:message code="corpoDocente.sexo.label" default="Sexo" /></span>
+					
+						<span class="property-value" aria-labelledby="sexo-label"><g:formatBoolean boolean="${corpoDocenteInstance?.sexo}" /></span>
+					
+				</li>
+				</g:if>
+			
 			</ol>
 			<g:form url="[resource:corpoDocenteInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">

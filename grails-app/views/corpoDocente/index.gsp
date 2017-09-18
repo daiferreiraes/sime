@@ -24,11 +24,31 @@
 			<thead>
 					<tr>
 					
+						<g:sortableColumn property="cargo" title="${message(code: 'corpoDocente.cargo.label', default: 'Cargo')}" />
+					
+						<g:sortableColumn property="disciplina" title="${message(code: 'corpoDocente.disciplina.label', default: 'Disciplina')}" />
+					
+						<g:sortableColumn property="idade" title="${message(code: 'corpoDocente.idade.label', default: 'Idade')}" />
+					
+						<g:sortableColumn property="nome" title="${message(code: 'corpoDocente.nome.label', default: 'Nome')}" />
+					
+						<g:sortableColumn property="sexo" title="${message(code: 'corpoDocente.sexo.label', default: 'Sexo')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${corpoDocenteInstanceList}" status="i" var="corpoDocenteInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
+					
+						<td><g:link action="show" id="${corpoDocenteInstance.id}">${fieldValue(bean: corpoDocenteInstance, field: "cargo")}</g:link></td>
+					
+						<td>${fieldValue(bean: corpoDocenteInstance, field: "disciplina")}</td>
+					
+						<td>${fieldValue(bean: corpoDocenteInstance, field: "idade")}</td>
+					
+						<td>${fieldValue(bean: corpoDocenteInstance, field: "nome")}</td>
+					
+						<td><g:formatBoolean boolean="${corpoDocenteInstance.sexo}" /></td>
 					
 					</tr>
 				</g:each>
