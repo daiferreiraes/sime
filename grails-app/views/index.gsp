@@ -83,7 +83,7 @@
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" role="complementary">
-			<h1>Application Status</h1>
+			<!--<h1>Application Status</h1>
 			<ul>
 				<li>App version: <g:meta name="app.version"/></li>
 				<li>Grails version: <g:meta name="app.grails.version"/></li>
@@ -94,7 +94,7 @@
 				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
 				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
 				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>
+			</ul>-->
 			<h1>Installed Plugins</h1>
 			<ul>
 				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
