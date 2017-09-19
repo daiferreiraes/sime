@@ -3,7 +3,8 @@ dataSource {
     jmxExport = true
     driverClassName = "org.postgresql.Driver"
     username = "postgres"
-    password = "leonardo"
+    password = "47007895"
+    //password = "leonardo"
 }
 hibernate {
     cache.use_second_level_cache = true
@@ -19,7 +20,8 @@ environments {
     development {
         dataSource {
 			dbCreate = "update"	//dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
-            url = "jdbc:postgresql://localhost:5432/TRABALHO_FABRICA"
+            url = "jdbc:postgresql://localhost:5432/Sime"
+            //url = "jdbc:postgresql://localhost:5432/TRABALHO_FABRICA"
         }
     }
     test {

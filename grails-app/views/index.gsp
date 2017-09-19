@@ -6,7 +6,6 @@
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
-				border: .2em solid #fff;
 				margin: 2em 2em 1em;
 				padding: 1em;
 				width: 12em;
@@ -82,35 +81,10 @@
 	</head>
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-<<<<<<< HEAD
+
 		<div id="page-body" role="main">
 			<h1>Sistema de Mapeamento Escolar - SIME</h1>
 			<p></p>
-=======
-		<div id="status" role="complementary">
-			<!--<h1>Application Status</h1>
-			<ul>
-				<li>App version: <g:meta name="app.version"/></li>
-				<li>Grails version: <g:meta name="app.grails.version"/></li>
-				<li>Groovy version: ${GroovySystem.getVersion()}</li>
-				<li>JVM version: ${System.getProperty('java.version')}</li>
-				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
-				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
-				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
-				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
-				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>-->
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
-			</ul>
-		</div>
-		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Bem vindo ao sistem:</p>
->>>>>>> e2100c93be833a5d81bd6c0edccef412bbcf062b
 
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
