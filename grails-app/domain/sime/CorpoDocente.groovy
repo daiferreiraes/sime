@@ -7,6 +7,9 @@ class CorpoDocente {
     String cargo
     String disciplina
 
+
     static constraints = {
+
+
     }
 }
