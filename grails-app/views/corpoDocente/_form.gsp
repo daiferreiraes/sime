@@ -7,7 +7,7 @@
 		<g:message code="corpoDocente.cargo.label" default="Cargo" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="cargo" required="" value="${corpoDocenteInstance?.cargo}"/>
+	<g:textField name="cargo" required="" value="${corpoDocenteInstance?.cargo}"placeholder="Digite o cargo do professor"/>
 
 </div>
 
@@ -34,7 +34,7 @@
 		<g:message code="corpoDocente.nome.label" default="Nome" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="nome" required="" value="${corpoDocenteInstance?.nome}"/>
+	<g:textField name="nome" required="" value="${corpoDocenteInstance?.nome}"placeholder="Infome o nome"/>
 
 </div>
 
@@ -43,7 +43,7 @@
 		<g:message code="corpoDocente.sexo.label" default="Sexo" />
 		
 	</label>
-	<g:checkBox name="sexo" value="${corpoDocenteInstance?.sexo}" />
+	<g:checkBox name="sexo" value="${corpoDocenteInstance?.sexo}" prefix="F"  />
 
 </div>
 
