@@ -11,8 +11,6 @@ class DadosEscola {
     int qnt_de_alunos
     int qnt_de_professores
     
-    TiposEscola tipoEscola 
-    
     
     
     static constraints = {

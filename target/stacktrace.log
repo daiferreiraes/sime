@@ -18803,6 +18803,7 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 	at org.postgresql.Driver.makeConnection(Driver.java:410)
 	at org.postgresql.Driver.connect(Driver.java:280)
 	... 4 more
+<<<<<<< HEAD
 2017-09-22 15:10:23,584 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
 org.postgresql.util.PSQLException: FATAL: autentica��o do tipo password falhou para usu�rio "postgres"
 	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:400)
@@ -19613,6 +19614,22 @@ org.springframework.jdbc.support.MetaDataAccessException: Error while extracting
 	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:296)
 	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
 	at org.codehaus.groovy.grails.orm.hibernate.support.HibernateDialectDetectorFactoryBean.afterPropertiesSet(HibernateDialectDetectorFactoryBean.java:88)
+=======
+2017-09-22 17:35:41,979 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(DatabaseMetadata.java:158)
+	at org.hibernate.cfg.Configuration.generateSchemaUpdateScriptList(Configuration.java:1202)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:212)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:522)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1857)
+	at org.codehaus.groovy.grails.orm.hibernate.cfg.GrailsAnnotationConfiguration.buildSessionFactory(GrailsAnnotationConfiguration.java:372)
+	at org.codehaus.groovy.grails.orm.hibernate.ConfigurableLocalSessionFactoryBean.doBuildSessionFactory(ConfigurableLocalSessionFactoryBean.java:479)
+	at org.codehaus.groovy.grails.orm.hibernate.ConfigurableLocalSessionFactoryBean.buildSessionFactory(ConfigurableLocalSessionFactoryBean.java:473)
+	at org.codehaus.groovy.grails.orm.hibernate.ConfigurableLocalSessionFactoryBean.afterPropertiesSet(ConfigurableLocalSessionFactoryBean.java:387)
+>>>>>>> bafccf48bb77d5fa9491ef0c4f8d1275ccea0ce8
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1613)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1550)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
@@ -19623,6 +19640,7 @@ org.springframework.jdbc.support.MetaDataAccessException: Error while extracting
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+<<<<<<< HEAD
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:384)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:165)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1457)
@@ -19643,6 +19661,8 @@ org.springframework.jdbc.support.MetaDataAccessException: Error while extracting
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+=======
+>>>>>>> bafccf48bb77d5fa9491ef0c4f8d1275ccea0ce8
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1457)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1198)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
@@ -19680,6 +19700,7 @@ org.springframework.jdbc.support.MetaDataAccessException: Error while extracting
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:744)
+<<<<<<< HEAD
 Caused by: org.postgresql.util.PSQLException: FATAL: autentica��o do tipo password falhou para usu�rio "postgres"
 	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:400)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:173)
@@ -20074,10 +20095,15 @@ org.postgresql.util.PSQLException: FATAL: autentica��o do tipo password falh
 	at java.lang.Thread.run(Thread.java:744)
 2017-09-22 15:10:24,053 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManagerPostProcessor': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager': Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Cannot resolve reference to bean 'hibernateProperties' while setting bean property 'hibernateProperties'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateProperties': Cannot resolve reference to bean 'dialectDetector' while setting bean property 'properties' with key [hibernate.dialect]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dialectDetector': Invocation of init method failed; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is org.postgresql.util.PSQLException: FATAL: autentica��o do tipo password falhou para usu�rio "postgres"
+=======
+2017-09-22 17:35:42,046 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException
+>>>>>>> bafccf48bb77d5fa9491ef0c4f8d1275ccea0ce8
 	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:744)
+<<<<<<< HEAD
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager': Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Cannot resolve reference to bean 'hibernateProperties' while setting bean property 'hibernateProperties'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateProperties': Cannot resolve reference to bean 'dialectDetector' while setting bean property 'properties' with key [hibernate.dialect]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dialectDetector': Invocation of init method failed; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is org.postgresql.util.PSQLException: FATAL: autentica��o do tipo password falhou para usu�rio "postgres"
 	... 4 more
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Cannot resolve reference to bean 'hibernateProperties' while setting bean property 'hibernateProperties'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateProperties': Cannot resolve reference to bean 'dialectDetector' while setting bean property 'properties' with key [hibernate.dialect]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dialectDetector': Invocation of init method failed; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is org.postgresql.util.PSQLException: FATAL: autentica��o do tipo password falhou para usu�rio "postgres"
@@ -20100,3 +20126,5 @@ Caused by: org.postgresql.util.PSQLException: FATAL: autentica��o do tipo pa
 	at org.postgresql.Driver.makeConnection(Driver.java:410)
 	at org.postgresql.Driver.connect(Driver.java:280)
 	... 4 more
+=======
+>>>>>>> bafccf48bb77d5fa9491ef0c4f8d1275ccea0ce8
