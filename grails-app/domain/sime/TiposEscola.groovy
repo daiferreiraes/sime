@@ -1,9 +1,7 @@
 package sime
 
-class TiposEscola {
-    String tipoEscola
-    
-    static belongsTo = DadosEscola
+class TiposEscola { 
+    DadosEscola tipoEscola 
     static constraints = {
     }
 }

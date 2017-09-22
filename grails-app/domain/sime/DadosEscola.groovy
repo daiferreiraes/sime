@@ -10,9 +10,10 @@ class DadosEscola {
     int qnt_de_salas
     int qnt_de_alunos
     int qnt_de_professores
-    String tipoEscola
     
-    static hasMany = [tipoescola:TipoEscola]
+    TiposEscola tipoEscola 
+    
+    
     
     static constraints = {
     }
