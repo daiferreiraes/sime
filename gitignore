@@ -1,0 +1,4 @@
+.gitignore
+
+/sime/target/*
+/sime/grails-app/conf/DataSource.groovy
