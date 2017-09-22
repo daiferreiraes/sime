@@ -4927,3 +4927,9 @@ n:3918:org/codehaus/groovy/grails/plugins/DomainClassGrailsPlugin$_closure4_clos
 n:2016:org/codehaus/groovy/grails/validation/ConstraintEvalUtils$getDefaultConstraints$0
 y:2331:org/codehaus/groovy/grails/validation/ConstraintsEvaluatorFactoryBean
 n:2989:org/codehaus/groovy/grails/plugins/DomainClassGrailsPlugin$_closure4_closure36_closure37
+n:8278:BuildConfig
+n:1876:grails/util/Environment$isFork$0
+n:13392:org/codehaus/groovy/grails/cli/fork/compile/ForkedGrailsCompiler
+n:18078:org/codehaus/groovy/grails/cli/fork/ForkedGrailsProjectClassExecutor
+n:1997:org/codehaus/groovy/grails/cli/fork/ForkedGrailsProcess$configure
+n:1873:org/codehaus/groovy/grails/cli/fork/ForkedGrailsProcess$fork$0

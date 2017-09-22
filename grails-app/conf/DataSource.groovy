@@ -3,7 +3,7 @@ dataSource {
     jmxExport = true
     driverClassName = "org.postgresql.Driver"
     username = "postgres"
-    password = "47007895"
+    password = "vl312fp"
     //password = "leonardo"
 }
 hibernate {

@@ -1,0 +1,8 @@
+.gitignore
+
+target/*
+
+.slcache/*
+
+/sime/grails-app/conf/DataSource.groovy
+/sime/target/*
