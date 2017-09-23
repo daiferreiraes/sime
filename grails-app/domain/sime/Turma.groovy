@@ -1,9 +1,7 @@
 package sime
 
-class Vagas {
+class Turma {
 
-    String turno
-    int numvagas
     static constraints = {
     }
 }
