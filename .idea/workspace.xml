@@ -2,129 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6968dea-b31d-424f-9684-9c2931b3dce2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/grails_util_Holders_7985.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovy_lang_GroovyShell_18097.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovy_util_AntBuilder_14709.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovy_xml_XmlUtil_9864.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/javassist_util_proxy_ProxyFactory_29782.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/javax_servlet_http_HttpServlet_8296.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_log4j_config_PropertySetter_8022.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_log4j_helpers_Loader_4244.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_log4j_helpers_OptionConverter_10730.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_log4j_spi_LoggingEvent_9937.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_AntClassLoader_24091.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_AntTypeDefinition_7441.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_ComponentHelper_24103.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$10_2345.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$11_2942.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$13_1951.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$3_1433.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$5_1586.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$7_1504.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$8_1670.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$9_1944.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$AddNestedCreator_2311.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$AttributeSetter_2415.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$CreateNestedCreator_1174.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper_27155.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_ProjectHelperRepository$ConstructingIterator_1722.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_ProjectHelperRepository_7631.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_Project_34948.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_TaskAdapter_4324.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_dispatch_DispatchUtils_3253.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_taskdefs_Execute_15331.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_taskdefs_ProcessDestroyer_4865.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_taskdefs_Property_12965.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_EnumeratedAttribute_2731.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_Mapper_5689.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_Path_13759.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_selectors_ExtendSelector_4695.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_selectors_modifiedselector_ModifiedSelector_15818.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_util_ClasspathUtils_5819.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_util_ReflectUtil_3716.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_zip_ExtraFieldUtils_6721.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_cli_api_BaseSettingsApi_17398.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_cli_support_GrailsBuildEventListener_9661.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_AbstractGrailsClass_9426.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_AnnotationDomainClassArtefactHandler_1961.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_ArtefactHandlerAdapter_4855.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_ClassPropertyFetcher$GetterPropertyFetcher_1979.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_ClassPropertyFetcher_11162.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_DefaultGrailsControllerClass_13234.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_DomainClassArtefactHandler_5019.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_GrailsClassUtils_25895.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_compiler_DirectoryWatcher_3946.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_compiler_injection_GrailsAwareInjectionOperation_6460.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_io_support_GrailsResourceUtils_18011.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_orm_hibernate_cfg_AbstractGrailsDomainBinder_87416.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_AbstractGrailsPluginManager_17000.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_DefaultGrailsPluginManager_30892.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_DefaultGrailsPlugin_28004.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_log4j_web_util_Log4jConfigListener_3424.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_services_ServicesGrailsPlugin_7836.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_validation_ConstrainedProperty_27204.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_web_servlet_mvc_GrailsWebRequest_16939.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_ConversionHandler_2550.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrap_1980.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrapNoCoerce_1804.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrap_1911.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSite_1995.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_grails_plugins_web_rest_plugin_RestResponderGrailsPlugin_8393.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_hibernate_dialect_Dialect_35679.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_hibernate_mapping_Collection_18766.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_BeanUtils_15523.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_BeanWrapperImpl_31535.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_ExtendedBeanInfoFactory_1508.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_GenericTypeAwarePropertyDescriptor_4763.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_TypeConverterDelegate_19772.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_factory_support_AbstractBeanDefinition_19205.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_$Proxy17_2849.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_SerializableTypeWrapper$TypeProxyInvocationHandler_2610.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_annotation_AnnotationUtils_14381.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_convert_TypeDescriptor_14210.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_convert_support_IdToEntityConverter_4236.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_convert_support_ObjectToObjectConverter_4868.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_io_support_PathMatchingResourcePatternResolver_14116.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_io_support_SpringFactoriesLoader_5168.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_type_classreading_AbstractRecursiveAnnotationVisitor_3781.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_type_classreading_AnnotationAttributesReadingVisitor_3979.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_type_classreading_RecursiveAnnotationAttributesVisitor_3523.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_type_filter_AnnotationTypeFilter_3383.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_orm_jpa_support_PersistenceAnnotationBeanPostProcessor_15170.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_util_ClassUtils_24248.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_util_ReflectionUtils_14493.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_web_util_UrlPathHelper_11364.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/sime/VagasController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/vagas/_form.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/vagas/create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/vagas/edit.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/vagas/index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/vagas/show.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/sime/VagasControllerSpec.groovy" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/sime/Vagas.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/sime/Turma.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/unit/sime/VagasSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/sime/TurmaSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure2.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4_closure7.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4_closure7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5_closure8.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5_closure8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6_closure9.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6_closure9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6_closure9_closure10.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6_closure9_closure10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.slcache/.index" afterPath="$PROJECT_DIR$/.slcache/.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sime-grailsPlugins.iml" afterPath="$PROJECT_DIR$/Sime-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sime.iml" afterPath="$PROJECT_DIR$/Sime.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/sime/Turma.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/sime/Turma.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/target/eclipseclasses/" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -137,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Turma.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Turma.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/sime/Turma.groovy">
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -181,6 +61,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/sime/Turma.groovy" />
       </list>
     </option>
   </component>
@@ -373,12 +254,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506128077947</updated>
-      <workItem from="1506128093903" duration="1756000" />
+      <workItem from="1506128093903" duration="2938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1756000" />
+    <option name="totallyTimeSpent" value="2938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -400,12 +281,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -440,21 +321,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="93" column="71" lean-forward="false" selection-start-line="93" selection-start-column="71" selection-end-line="93" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/sime/Turma.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="93" column="71" lean-forward="false" selection-start-line="93" selection-start-column="71" selection-end-line="93" selection-end-column="71" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
