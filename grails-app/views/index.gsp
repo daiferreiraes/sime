@@ -91,6 +91,7 @@
 					<br><g:link controller="Usuario" action="index">Criar Conta</g:link></br>
 					<br><g:link controller="CorpoDocente" action="index">Corpo Docente</g:link></br>
 					<br><g:link controller="DadosEscola" action="index">Dados da Escola</g:link></br>
+					<br><g:link controller="Turma" action="index">Turma</g:link></br>
 
 
 			</div>
