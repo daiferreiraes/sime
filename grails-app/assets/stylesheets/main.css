@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	outline: 0;
 	border: none;
+	text-decoration: none;
 }
 body, input, select, textarea {
 	font-family: "Arcon", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -23,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 html {
 	/* Plano de fundo */
-	background: url('../images/fundo.png') no-repeat fixed center;
+	background: #1F1F1F url('../images/fundo.png') no-repeat fixed center;
 	background-size: cover;
 	width: 100%;
 	height: 100%;
@@ -82,17 +83,31 @@ img {
 }
 
 /* GENERAL */
-
+#menu-nav {
+	background-color: #A9ABAE;
+}
 #menu-nav ul {
 	text-align: center;
 }
 #menu-nav li, #menu-nav img {
+	margin: 0 12px;
 	display: inline-block;
+	vertical-align: middle;
 }
 
-.content {
+#menu-nav li {
+	padding: 25px 0;
 }
-
+#menu-nav a {
+	height: 100%;
+	color: #1F1F1F;
+	font-size: 1.1em;
+}
+#menu-nav li:hover {
+	-webkit-box-shadow: inset 0 -4px 0 0  #80E2A8;
+	-moz-box-shadow: inset 0 -4px 0 0 #80E2A8;
+	box-shadow: inset 0 -4px 0 0 #80E2A8;
+}
 .content h1 {
 	border-bottom: 1px solid #CCCCCC;
 	margin: 0.8em 1em 0.3em;
