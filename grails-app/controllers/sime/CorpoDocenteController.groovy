@@ -7,7 +7,6 @@ import grails.transaction.Transactional
 import org.springframework.security.access.annotation.Secured
 @Secured('isFullyAuthenticated()')
 
-
 @Transactional(readOnly = true)
 class CorpoDocenteController {
 

@@ -45,10 +45,6 @@ body {
 	color: #333333;
 }
 
-#grailsLogo {
-	background-color: #abbf78;
-}
-
 /* replace with .no-boxshadow body if you have modernizr available */
 .ie6 body,
 .ie7 body,
@@ -87,9 +83,11 @@ img {
 
 /* GENERAL */
 
-#grailsLogo a {
+#menu-nav ul {
+	text-align: center;
+}
+#menu-nav li, #menu-nav img {
 	display: inline-block;
-	margin: 1em;
 }
 
 .content {

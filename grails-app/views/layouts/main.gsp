@@ -17,9 +17,25 @@
 		<g:layoutHead/>
 	</head>
 	<body>
-		%{--<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="logo_sime.png" alt="Sistema de Mapeamento Escolar"/></a></div>--}%
-		<g:layoutBody/>
-		%{--<div class="footer" role="contentinfo"></div>--}%
+	<sec:ifLoggedIn>
+		<div role="banner">
+			<nav id="menu-nav">
+				<ul>
+					<li class="controller"><g:link uri="/">Home</g:link></li>
+					<li class="controller"><g:link>Pesquisar escola</g:link></li>
+					<li class="controller"><g:link>Dados da escola</g:link></li>
+					<asset:image src="logo_sime_preta.png" alt="Logomarca Sime"/>
+					<li class="controller"><g:link>Corpo docente</g:link></li>
+					<li class="controller"><g:link>Quantidade de vagas</g:link></li>
+					<li class="controller"><g:link>Sair</g:link></li>
+				</ul>
+			</nav>
+		</div>
+	</sec:ifLoggedIn>
+	<g:layoutBody/>
+	<sec:ifLoggedIn>
+		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
+	</sec:ifLoggedIn>
 	</body>
 </html>

@@ -63,7 +63,7 @@
 				<li class="fieldcontain">
 					<span id="sexo-label" class="property-label"><g:message code="corpoDocente.sexo.label" default="Sexo" /></span>
 					
-						<span class="property-value" aria-labelledby="sexo-label"><g:formatBoolean boolean="${corpoDocenteInstance?.sexo}" /></span>
+						<span class="property-value" aria-labelledby="sexo-label"><g:fieldValue bean="${corpoDocenteInstance}" field="sexo"/></span>
 					
 				</li>
 				</g:if>

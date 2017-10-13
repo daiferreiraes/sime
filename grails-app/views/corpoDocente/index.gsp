@@ -48,7 +48,7 @@
 					
 						<td>${fieldValue(bean: corpoDocenteInstance, field: "nome")}</td>
 					
-						<td><g:formatBoolean boolean="${corpoDocenteInstance.sexo}" /></td>
+						<td>${fieldValue(bean: corpoDocenteInstance, field: "sexo")}</td>
 					
 					</tr>
 				</g:each>

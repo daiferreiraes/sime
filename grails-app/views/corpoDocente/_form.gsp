@@ -7,7 +7,7 @@
 		<g:message code="corpoDocente.cargo.label" default="Cargo" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="cargo" required="" value="${corpoDocenteInstance?.cargo}"placeholder="Digite o cargo do professor"/>
+	<g:textField name="cargo" required="" value="${corpoDocenteInstance?.cargo}"/>
 
 </div>
 
@@ -34,16 +34,16 @@
 		<g:message code="corpoDocente.nome.label" default="Nome" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="nome" required="" value="${corpoDocenteInstance?.nome}"placeholder="Infome o nome"/>
+	<g:textField name="nome" required="" value="${corpoDocenteInstance?.nome}"/>
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: corpoDocenteInstance, field: 'sexo', 'error')} ">
+<div class="fieldcontain ${hasErrors(bean: corpoDocenteInstance, field: 'sexo', 'error')} required">
 	<label for="sexo">
 		<g:message code="corpoDocente.sexo.label" default="Sexo" />
-		
+		<span class="required-indicator">*</span>
 	</label>
-	<g:checkBox name="sexo" value="${corpoDocenteInstance?.sexo}" prefix="F"  />
+	<g:textField name="sexo" required="" value="${corpoDocenteInstance?.sexo}"/>
 
 </div>
 

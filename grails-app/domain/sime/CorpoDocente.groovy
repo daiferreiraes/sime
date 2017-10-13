@@ -3,7 +3,7 @@ package sime
 class CorpoDocente {
     String nome
     int idade
-    boolean sexo
+    String sexo
     String cargo
     String disciplina
 
