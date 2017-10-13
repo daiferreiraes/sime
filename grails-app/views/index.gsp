@@ -3,79 +3,22 @@
 	<head>
 		<meta name="layout" content="main"/>
 		<title>Sime</title>
-		<style type="text/css" media="screen">
-			#status {
-				background-color: #eee;
-				margin: 2em 2em 1em;
-				padding: 1em;
-				width: 12em;
-				float: left;
-				-moz-box-shadow: 0px 0px 1.25em #ccc;
-				-webkit-box-shadow: 0px 0px 1.25em #ccc;
-				box-shadow: 0px 0px 1.25em #ccc;
-				-moz-border-radius: 0.6em;
-				-webkit-border-radius: 0.6em;
-				border-radius: 0.6em;
-			}
-
-			.ie6 #status {
-				display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
-			}
-
-			#status ul {
-				font-size: 0.9em;
-				list-style-type: none;
-				margin-bottom: 0.6em;
-				padding: 0;
-			}
-
-			#status li {
-				line-height: 1.3;
-			}
-
-			#status h1 {
-				text-transform: uppercase;
-				font-size: 1.1em;
-				margin: 0 0 0.3em;
-			}
-
-			#page-body {
-				margin: 2em 1em 1.25em 18em;
-			}
-
-			h2 {
-				margin-top: 1em;
-				margin-bottom: 0.3em;
-				font-size: 1em;
-			}
-
-			p {
-				line-height: 1.5;
-				margin: 0.25em 0;
-			}
-
-			#controller-list ul {
-				list-style-position: inside;
+		<style>
+			#controller-list {
+				text-align: center;
 			}
 
 			#controller-list li {
-				line-height: 1.3;
-				list-style-position: inside;
-				margin: 0.25em 0;
+				margin: 50px;
+				display: inline-block;
 			}
 
-			@media screen and (max-width: 480px) {
-				#status {
-					display: none;
-				}
-
-				#page-body {
-					margin: 0 1em 1em;
-				}
-
-				#page-body h1 {
-					margin-top: 0;
-				}
+			#controller-list li:hover {
+				-webkit-transform: rotateX(45deg);
+				-moz-transform: rotateX(45deg);
+				-ms-transform: rotateX(45deg);
+				-o-transform: rotateX(45deg);
+				transform: rotateX(45deg);
 			}
 		</style>
 	</head>
@@ -86,23 +29,11 @@
 			<nav id="controller-list" role="navigation">
 				<ul>
 					<li><g:link><asset:image src="buscar_escola.png" alt="Buscar escola"/></g:link></li>
-					<li><g:link><asset:image src="dados_escola.png" alt="Dados da escola"/></g:link></li>
-					<li><g:link><asset:image src="corpo_docente.png" alt="Corpo docente"/></g:link></li>
-					<li><g:link><asset:image src="quantidade_vagas.png" alt="Quantidade de vagas"/></g:link></li>
+					<li><g:link controller="DadosEscola" action="index"><asset:image src="dados_escola.png" alt="Dados da escola"/></g:link></li>
+					<li><g:link controller="CorpoDocente" action="index"><asset:image src="corpo_docente.png" alt="Corpo docente"/></g:link></li>
+					<li><g:link controller="Turma" action="index"><asset:image src="quantidade_vagas.png" alt="Quantidade de vagas"/></g:link></li>
 					<li><g:link><asset:image src="configuracoes.png" alt="Configurações"/></g:link></li>
-					<li><g:link><asset:image src="sair.png" alt="Sair"/></g:link></li>
-				</ul>
-
-				<ul>
-
-					<g:link controller="CorpoDocente" action="index"> Corpo Docente</g:link><br />
-					<br />
-					<g:link controller="DadosEscola" action="index"> Dados da Escola</g:link><br />
-					<br />
-					<g:link controller="Turma" action="index"> Turma</g:link><br />
-					<br />
-
-					<g:link controller="logout" action="index">Sair da Aplicação</g:link>
+					<li><g:link controller="logout" action="index"><asset:image src="sair.png" alt="Sair"/></g:link></li>
 				</ul>
 			</nav>
 		</div>
