@@ -80,30 +80,31 @@
 		</style>
 	</head>
 	<body>
-		<a href=."#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 
 		<div id="page-body" role="main">
-			<h1>Sistema de Mapeamento Escolar - SIME</h1>
-			<p></p>
+			<nav id="controller-list" role="navigation">
+				<ul>
+					<li><g:link><asset:image src="buscar_escola.png" alt="Buscar escola"/></g:link></li>
+					<li><g:link><asset:image src="dados_escola.png" alt="Dados da escola"/></g:link></li>
+					<li><g:link><asset:image src="corpo_docente.png" alt="Corpo docente"/></g:link></li>
+					<li><g:link><asset:image src="quantidade_vagas.png" alt="Quantidade de vagas"/></g:link></li>
+					<li><g:link><asset:image src="configuracoes.png" alt="Configurações"/></g:link></li>
+					<li><g:link><asset:image src="sair.png" alt="Sair"/></g:link></li>
+				</ul>
 
-				<h2></h2>
+				<ul>
 
-				<div id="controller-list" role="navigation">
-					<h2>Available Controllers:</h2>
-					<ul>
+					<g:link controller="CorpoDocente" action="index"> Corpo Docente</g:link><br />
+					<br />
+					<g:link controller="DadosEscola" action="index"> Dados da Escola</g:link><br />
+					<br />
+					<g:link controller="Turma" action="index"> Turma</g:link><br />
+					<br />
 
-						<g:link controller="CorpoDocente" action="index"> Corpo Docente</g:link><br />
-						<br />
-						<g:link controller="DadosEscola" action="index"> Dados da Escola</g:link><br />
-						<br />
-						<g:link controller="Turma" action="index"> Turma</g:link><br />
-						<br />
-
-						<g:link controller="logout" action="index">Sair da Aplicação</g:link>
-
-						Bem-vindo <sec:username/>
-					</ul>
-				</div>
+					<g:link controller="logout" action="index">Sair da Aplicação</g:link>
+				</ul>
+			</nav>
 		</div>
 	</body>
 </html>
