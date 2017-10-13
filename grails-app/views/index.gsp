@@ -91,7 +91,7 @@
 				<div id="controller-list" role="navigation">
 					<h2>Available Controllers:</h2>
 					<ul>
-						
+
 						<g:link controller="CorpoDocente" action="index"> Corpo Docente</g:link><br />
 						<br />
 						<g:link controller="DadosEscola" action="index"> Dados da Escola</g:link><br />

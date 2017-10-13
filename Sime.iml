@@ -209,6 +209,8 @@
           <root url="jar://C:/grails-2.4.4/lib/net.java.dev.jna/jna/jars/jna-4.0.0.jar!/" />
           <root url="jar://C:/grails-2.4.4/lib/org.apache.ant/ant-junit/jars/ant-junit-1.8.4.jar!/" />
           <root url="jar://C:/grails-2.4.4/lib/org.apache.ant/ant-trax/jars/ant-trax-1.7.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.2.3.RELEASE/spring-security-web-3.2.3.RELEASE.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.3.RELEASE/spring-security-core-3.2.3.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
