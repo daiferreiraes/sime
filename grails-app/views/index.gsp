@@ -86,15 +86,24 @@
 			<h1>Sistema de Mapeamento Escolar - SIME</h1>
 			<p></p>
 
-			<div id="controller-list" role="navigation">
 				<h2></h2>
-					<br><g:link controller="Usuario" action="index">Criar Conta</g:link></br>
-					<br><g:link controller="CorpoDocente" action="index">Corpo Docente</g:link></br>
-					<br><g:link controller="DadosEscola" action="index">Dados da Escola</g:link></br>
-					<br><g:link controller="Turma" action="index">Turma</g:link></br>
 
+				<div id="controller-list" role="navigation">
+					<h2>Available Controllers:</h2>
+					<ul>
+						
+						<g:link controller="CorpoDocente" action="index"> Corpo Docente</g:link><br />
+						<br />
+						<g:link controller="DadosEscola" action="index"> Dados da Escola</g:link><br />
+						<br />
+						<g:link controller="Turma" action="index"> Turma</g:link><br />
+						<br />
 
-			</div>
+						<g:link controller="logout" action="index">Sair da Aplicação</g:link>
+
+						Bem-vindo <sec:username/>
+					</ul>
+				</div>
 		</div>
 	</body>
 </html>

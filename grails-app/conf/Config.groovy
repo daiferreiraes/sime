@@ -116,7 +116,12 @@ log4j.main = {
            'net.sf.ehcache.hibernate'
 }
 
-
+grails.plugin.springsecurity.logout.postOnly = false
+//regras para proteger o acesso ao meu projeto
+grails.plugin.springsecurity.interceptUrlMap = [
+        '/':           ['isFullyAuthenticated()'],
+        '/**':          ['isFullyAuthenticated()']
+]
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'autenticacao.Administrador'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'autenticacao.AdministradorRegra'
