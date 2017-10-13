@@ -21,13 +21,14 @@
 		<div role="banner">
 			<nav id="menu-nav">
 				<ul>
+					<asset:image src="logo_sime_preta.png" alt="Logomarca Sime"/>
 					<li><g:link uri="/">Home</g:link></li>
 					<li><g:link>Pesquisar escola</g:link></li>
 					<li><g:link>Dados da escola</g:link></li>
-					<asset:image src="logo_sime_preta.png" alt="Logomarca Sime"/>
 					<li><g:link>Corpo docente</g:link></li>
 					<li><g:link>Quantidade de vagas</g:link></li>
 					<li><g:link>Configurações</g:link></li>
+					<li><g:link>Sair</g:link></li>
 				</ul>
 			</nav>
 		</div>
