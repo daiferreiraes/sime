@@ -58,8 +58,8 @@
       <file leaf-file-name="index.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="30" column="123" lean-forward="false" selection-start-line="30" selection-start-column="123" selection-end-line="30" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -399,12 +399,12 @@
       <updated>1507832902106</updated>
       <workItem from="1507832923886" duration="449000" />
       <workItem from="1507866240836" duration="7500000" />
-      <workItem from="1507900133768" duration="16061000" />
+      <workItem from="1507900133768" duration="17525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24010000" />
+    <option name="totallyTimeSpent" value="25474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -715,8 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="30" column="123" lean-forward="false" selection-start-line="30" selection-start-column="123" selection-end-line="30" selection-end-column="123" />
           <folding />
         </state>
       </provider>

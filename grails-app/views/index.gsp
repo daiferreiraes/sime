@@ -11,20 +11,24 @@
 			#controller-list li {
 				margin: 50px;
 				display: inline-block;
+				-webkit-transition: linear 0.5s;
+				-moz-transition: linear 0.5s;
+				-ms-transition: linear 0.5s;
+				-o-transition: linear 0.5s;
+				transition: linear 0.5s;
 			}
 
 			#controller-list li:hover {
-				-webkit-transform: rotateX(45deg);
-				-moz-transform: rotateX(45deg);
-				-ms-transform: rotateX(45deg);
-				-o-transform: rotateX(45deg);
-				transform: rotateX(45deg);
+				-webkit-transform: rotateX(20deg);
+				-moz-transform: rotateX(20deg);
+				-ms-transform: rotateX(20deg);
+				-o-transform: rotateX(20deg);
+				transform: rotateX(20deg);
 			}
 		</style>
 	</head>
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-
 		<div id="page-body" role="main">
 			<nav id="controller-list" role="navigation">
 				<ul>
