@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,11 +24,11 @@
 					<asset:image src="logo_sime_preta.png" alt="Logomarca Sime"/>
 					<li><g:link uri="/">Home</g:link></li>
 					<li><g:link>Pesquisar escola</g:link></li>
-					<li><g:link>Dados da escola</g:link></li>
-					<li><g:link>Corpo docente</g:link></li>
-					<li><g:link>Quantidade de vagas</g:link></li>
+					<li><g:link controller="DadosEscola" action="index">Dados da escola</g:link></li>
+					<li><g:link controller="CorpoDocente" action="index">Corpo docente</g:link></li>
+					<li><g:link controller="Turma" action="index">Quantidade de vagas</g:link></li>
 					<li><g:link>Configurações</g:link></li>
-					<li><g:link>Sair</g:link></li>
+					<li><g:link controller="logout" action="index">Sair</g:link></li>
 				</ul>
 			</nav>
 		</div>
