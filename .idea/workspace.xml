@@ -2,123 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011c3437-5c65-40ca-a661-4e0e1557dbea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="$PROJECT_DIR$/target/classes/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4_closure7.class" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4_closure7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="$PROJECT_DIR$/target/classes/resources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sime/CorpoDocente.class" afterPath="$PROJECT_DIR$/target/classes/sime/CorpoDocente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sime/CorpoDocenteController$_tt__delete_closure11_closure18.class" afterPath="$PROJECT_DIR$/target/classes/sime/CorpoDocenteController$_tt__delete_closure11_closure18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sime/CorpoDocenteController$_tt__save_closure9_closure14.class" afterPath="$PROJECT_DIR$/target/classes/sime/CorpoDocenteController$_tt__save_closure9_closure14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sime/CorpoDocenteController$_tt__update_closure10_closure16.class" afterPath="$PROJECT_DIR$/target/classes/sime/CorpoDocenteController$_tt__update_closure10_closure16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sime/CorpoDocenteController.class" afterPath="$PROJECT_DIR$/target/classes/sime/CorpoDocenteController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sime/DadosEscola.class" afterPath="$PROJECT_DIR$/target/classes/sime/DadosEscola.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sime/TiposEscola.class" afterPath="$PROJECT_DIR$/target/classes/sime/TiposEscola.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/InterceptedUrl.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/InterceptedUrl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.slcache/.index" afterPath="$PROJECT_DIR$/.slcache/.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/sime/UsuarioController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/sime/UsuarioController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/sime/Usuario.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/sime/Usuario.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/usuario/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/usuario/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/usuario/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/usuario/create.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/usuario/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/usuario/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/usuario/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/usuario/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
     <ignored path="$PROJECT_DIR$/target/eclipseclasses/" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -131,31 +28,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/_form.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="50" column="121" lean-forward="false" selection-start-line="50" selection-start-column="121" selection-end-line="50" selection-end-column="121" />
+            <state relative-caret-position="-357">
+              <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/_form.gsp">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="204">
+              <caret line="288" column="0" lean-forward="true" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/create.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages_pt_BR.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Usuario.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/sime/Usuario.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="110">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -164,13 +94,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootStrap.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdministradorRegra.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/autenticacao/AdministradorRegra.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -187,7 +130,7 @@
       <file leaf-file-name="auth.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC4/grails-app/views/login/auth.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="214">
               <caret line="84" column="79" lean-forward="false" selection-start-line="84" selection-start-column="79" selection-end-line="84" selection-end-column="79" />
               <folding />
             </state>
@@ -214,12 +157,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/sime/TurmaController.groovy" />
         <option value="$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC4/grails-app/i18n/spring-security-core_pt_BR.properties" />
         <option value="$PROJECT_DIR$/grails-app/domain/sime/CorpoDocente.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/sime/CorpoDocenteController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/grails-app/views/dadosEscola/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/sime/DadosEscola.groovy" />
@@ -231,7 +172,11 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/sime/UsuarioController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/sime/Usuario.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/usuario/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" />
+        <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" />
       </list>
     </option>
   </component>
@@ -280,6 +225,19 @@
               <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
               <item name="sime" type="462c0819:PsiDirectoryNode" />
               <item name="grails-app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,20 +245,6 @@
               <item name="sime" type="462c0819:PsiDirectoryNode" />
               <item name="grails-app" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sime" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="autenticacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sime" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="sime" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
@@ -314,6 +258,41 @@
               <item name="grails-app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="usuario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-core-2.0-RC4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-core-2.0-RC4" type="462c0819:PsiDirectoryNode" />
+              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -473,12 +452,12 @@
       <workItem from="1507975976879" duration="5587000" />
       <workItem from="1508039376999" duration="836000" />
       <workItem from="1508073877189" duration="2221000" />
-      <workItem from="1508076270644" duration="12713000" />
+      <workItem from="1508076270644" duration="15651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53292000" />
+    <option name="totallyTimeSpent" value="56230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -499,7 +478,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3338898" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3338816" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -529,22 +508,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/sime/DadosEscola.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
@@ -685,28 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/dadosEscola/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -808,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC4/grails-app/views/login/denied.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC4/grails-app/i18n/spring-security-core_pt_BR.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -845,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC4/grails-app/views/login/auth.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="84" column="79" lean-forward="false" selection-start-line="84" selection-start-column="79" selection-end-line="84" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/sime/UsuarioController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -879,22 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/_form.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="50" column="121" lean-forward="false" selection-start-line="50" selection-start-column="121" selection-end-line="50" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -914,17 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/autenticacao/AdministradorRegra.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/autenticacao/Regra.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
@@ -936,13 +838,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/sime/Usuario.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/autenticacao/AdministradorRegra.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC4/grails-app/views/login/denied.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC4/grails-app/views/login/auth.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="84" column="79" lean-forward="false" selection-start-line="84" selection-start-column="79" selection-end-line="84" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="121" lean-forward="false" selection-start-line="50" selection-start-column="121" selection-end-line="50" selection-end-column="121" />
           <folding />
         </state>
       </provider>
@@ -950,7 +876,61 @@
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/sime/Usuario.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="288" column="0" lean-forward="true" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
           <folding />
         </state>
       </provider>

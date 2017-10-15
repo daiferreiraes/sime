@@ -34,6 +34,8 @@
 					
 						<g:sortableColumn property="confirmarSenha" title="${message(code: 'usuario.confirmarSenha.label', default: 'Confirmar Senha')}" />
 					
+						<g:sortableColumn property="nomeUsuario" title="${message(code: 'usuario.nomeUsuario.label', default: 'Nome Usuario')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
@@ -49,6 +51,8 @@
 						<td>${fieldValue(bean: usuarioInstance, field: "senha")}</td>
 					
 						<td>${fieldValue(bean: usuarioInstance, field: "confirmarSenha")}</td>
+					
+						<td>${fieldValue(bean: usuarioInstance, field: "nomeUsuario")}</td>
 					
 					</tr>
 				</g:each>

@@ -15,7 +15,7 @@ class BootStrap {
 
         def regraAdmin = Regra.findByAuthority('REGRA_ADMIN') ?: new Regra (authority:'REGRA_ADMIN').save(failOnError:true)
 
-        def regraFuncionario = Regra.findByAuthority('REGRA_FUNCIONARIO') ?: new Regra(authority:'REGRA_FUNCIONARIO').save(failOnError:true)
+        def regrausuario = Regra.findByAuthority('REGRA_USUARIO') ?: new Regra(authority:'REGRA_USUARIO').save(failOnError:true)
 
         if (!adminUsuario.authorities.contains(regraAdmin)){
             AdministradorRegra.create(adminUsuario,regraAdmin)

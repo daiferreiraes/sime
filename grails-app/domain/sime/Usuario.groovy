@@ -5,6 +5,7 @@ class Usuario {
     String nome
     String cargo
     String email
+    String nomeUsuario
     String senha
     String confirmarSenha
 

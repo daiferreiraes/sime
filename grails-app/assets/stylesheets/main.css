@@ -242,7 +242,7 @@ label {
 	display: inline-block;
 }
 
-input[type='text'], input[type='password'], textarea {
+input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea {
 	color: #80E2A8;
 	background: none;
 	border: 2px solid #A9ABAE;
@@ -283,11 +283,11 @@ input[type=checkbox], input[type=radio] {
 	padding: 0;
 }
 
-input[type='text']:focus, input[type='password']:focus, textarea:focus {
+input[type='text']:focus, input[type='password']:focus, input[type='number']:focus, input[type='email']:focus, textarea:focus {
 	border: 2px solid #80E2A8;
 }
 
-input[type='text']:valid, input[type='password']:valid, textarea:valid {
+input[type='text']:valid, input[type='password']:valid, input[type='number']:valid, input[type='email']:valid, textarea:valid {
 	border: 2px solid #80E2A8;
 }
 

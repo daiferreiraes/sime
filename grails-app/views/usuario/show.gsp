@@ -68,6 +68,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${usuarioInstance?.nomeUsuario}">
+				<li class="fieldcontain">
+					<span id="nomeUsuario-label" class="property-label"><g:message code="usuario.nomeUsuario.label" default="Nome Usuario" /></span>
+					
+						<span class="property-value" aria-labelledby="nomeUsuario-label"><g:fieldValue bean="${usuarioInstance}" field="nomeUsuario"/></span>
+					
+				</li>
+				</g:if>
+			
 			</ol>
 			<g:form url="[resource:usuarioInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">
