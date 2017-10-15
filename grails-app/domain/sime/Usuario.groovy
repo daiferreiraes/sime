@@ -1,19 +1,20 @@
 package sime
 
 class Usuario {
+
     String nome
     String cargo
     String email
     String senha
-    String validadarSenha
+    String confirmarSenha
 
     static constraints = {
 
         nome(blank:false, nullable:false)
-        cargo(unique:true, blank:false, nullable:false)
-        email(blank:false, nullable:false)
-        senha(blank:false, nullable:false)
-        validadarSenha(blank:false, nullable:false, email:true)
+        cargo(blank:false, nullable:false)
+        email(blank:false, nullable:false, email:true)
+        senha(blank:false, nullable:false, password: true)
+        confirmarSenha(blank:false, nullable:false, password: true)
     }
 
     String toString(){

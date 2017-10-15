@@ -59,11 +59,11 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${usuarioInstance?.validadarSenha}">
+				<g:if test="${usuarioInstance?.confirmarSenha}">
 				<li class="fieldcontain">
-					<span id="validadarSenha-label" class="property-label"><g:message code="usuario.validadarSenha.label" default="Validadar Senha" /></span>
+					<span id="confirmarSenha-label" class="property-label"><g:message code="usuario.confirmarSenha.label" default="Confirmar Senha" /></span>
 					
-						<span class="property-value" aria-labelledby="validadarSenha-label"><g:fieldValue bean="${usuarioInstance}" field="validadarSenha"/></span>
+						<span class="property-value" aria-labelledby="confirmarSenha-label"><g:fieldValue bean="${usuarioInstance}" field="confirmarSenha"/></span>
 					
 				</li>
 				</g:if>

@@ -18,7 +18,7 @@ hibernate {
 environments {
     development {
         dataSource {
-			dbCreate = "update"	//dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
+			dbCreate = "create-drop"	//dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:postgresql://localhost:5432/Sime"
         }
     }

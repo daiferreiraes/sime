@@ -34,16 +34,16 @@
 		<g:message code="usuario.senha.label" default="Senha" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="senha" required="" value="${usuarioInstance?.senha}"/>
+	<g:field type="password" name="senha" required="" value="${usuarioInstance?.senha}"/>
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'validadarSenha', 'error')} required">
-	<label for="validadarSenha">
-		<g:message code="usuario.validadarSenha.label" default="Validadar Senha" />
+<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'confirmarSenha', 'error')} required">
+	<label for="confirmarSenha">
+		<g:message code="usuario.confirmarSenha.label" default="Confirmar Senha" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:field type="email" name="validadarSenha" required="" value="${usuarioInstance?.validadarSenha}"/>
+	<g:field type="password" name="confirmarSenha" required="" value="${usuarioInstance?.confirmarSenha}"/>
 
 </div>
 
