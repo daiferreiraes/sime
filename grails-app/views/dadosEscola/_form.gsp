@@ -83,12 +83,3 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'tipoEscola', 'error')} required">
-	<label for="tipoEscola">
-		<g:message code="dadosEscola.tipoEscola.label" default="Tipo Escola" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:select id="tipoEscola" name="tipoEscola.id" from="${sime.TiposEscola.list()}" optionKey="id" required="" value="${dadosEscolaInstance?.tipoEscola?.id}" class="many-to-one"/>
-
-</div>
-
