@@ -27,7 +27,7 @@
 					<li><g:link controller="DadosEscola" action="index">Dados da escola</g:link></li>
 					<li><g:link controller="CorpoDocente" action="index">Corpo docente</g:link></li>
 					<li><g:link controller="Turma" action="index">Quantidade de vagas</g:link></li>
-					<li><g:link>Configurações</g:link></li>
+					<li><g:link controller="Configuracao">Configurações</g:link></li>
 					<li><g:link controller="logout" action="index">Sair</g:link></li>
 				</ul>
 			</nav>
