@@ -43,7 +43,7 @@
 			<asset:image class="logo" src="logo_sime_verde.png" alt="Logomarca Sime"/>
 			<nav id="controller-list" role="navigation">
 				<ul>
-					<li><g:link><asset:image src="buscar_escola.png" alt="Buscar escola"/></g:link></li>
+					<li><g:link controller="Busca" action="index"><asset:image src="buscar_escola.png" alt="Busca"/></g:link></li>
 					<li><g:link controller="DadosEscola" action="index"><asset:image src="dados_escola.png" alt="Dados da escola"/></g:link></li>
 					<li><g:link controller="CorpoDocente" action="index"><asset:image src="corpo_docente.png" alt="Corpo docente"/></g:link></li>
 					<li><g:link controller="Turma" action="index"><asset:image src="quantidade_vagas.png" alt="Quantidade de vagas"/></g:link></li>

@@ -23,7 +23,7 @@
 				<ul>
 					<asset:image src="logo_sime_preta.png" alt="Logomarca Sime"/>
 					<li><g:link uri="/">Home</g:link></li>
-					<li><g:link>Pesquisar escola</g:link></li>
+					<li><g:link controller="busca">Persquisar Escola</g:link></li>
 					<li><g:link controller="DadosEscola" action="index">Dados da escola</g:link></li>
 					<li><g:link controller="CorpoDocente" action="index">Corpo docente</g:link></li>
 					<li><g:link controller="Turma" action="index">Quantidade de vagas</g:link></li>
