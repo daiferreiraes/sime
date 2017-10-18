@@ -23,6 +23,15 @@
 			</g:if>
 			<ol class="property-list dadosEscola">
 			
+				<g:if test="${dadosEscolaInstance?.tipo_De_Escola}">
+				<li class="fieldcontain">
+					<span id="tipo_De_Escola-label" class="property-label"><g:message code="dadosEscola.tipo_De_Escola.label" default="Tipo De Escola" /></span>
+					
+						<span class="property-value" aria-labelledby="tipo_De_Escola-label"><g:fieldValue bean="${dadosEscolaInstance}" field="tipo_De_Escola"/></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${dadosEscolaInstance?.bairro}">
 				<li class="fieldcontain">
 					<span id="bairro-label" class="property-label"><g:message code="dadosEscola.bairro.label" default="Bairro" /></span>
@@ -50,11 +59,11 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${dadosEscolaInstance?.nome_escola}">
+				<g:if test="${dadosEscolaInstance?.nome_Escola}">
 				<li class="fieldcontain">
-					<span id="nome_escola-label" class="property-label"><g:message code="dadosEscola.nome_escola.label" default="Nomeescola" /></span>
+					<span id="nome_Escola-label" class="property-label"><g:message code="dadosEscola.nome_Escola.label" default="Nome Escola" /></span>
 					
-						<span class="property-value" aria-labelledby="nome_escola-label"><g:fieldValue bean="${dadosEscolaInstance}" field="nome_escola"/></span>
+						<span class="property-value" aria-labelledby="nome_Escola-label"><g:fieldValue bean="${dadosEscolaInstance}" field="nome_Escola"/></span>
 					
 				</li>
 				</g:if>
@@ -68,29 +77,29 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${dadosEscolaInstance?.qnt_de_alunos}">
+				<g:if test="${dadosEscolaInstance?.qnt_De_Alunos}">
 				<li class="fieldcontain">
-					<span id="qnt_de_alunos-label" class="property-label"><g:message code="dadosEscola.qnt_de_alunos.label" default="Qntdealunos" /></span>
+					<span id="qnt_De_Alunos-label" class="property-label"><g:message code="dadosEscola.qnt_De_Alunos.label" default="Qnt De Alunos" /></span>
 					
-						<span class="property-value" aria-labelledby="qnt_de_alunos-label"><g:fieldValue bean="${dadosEscolaInstance}" field="qnt_de_alunos"/></span>
+						<span class="property-value" aria-labelledby="qnt_De_Alunos-label"><g:fieldValue bean="${dadosEscolaInstance}" field="qnt_De_Alunos"/></span>
 					
 				</li>
 				</g:if>
 			
-				<g:if test="${dadosEscolaInstance?.qnt_de_professores}">
+				<g:if test="${dadosEscolaInstance?.qnt_De_Professores}">
 				<li class="fieldcontain">
-					<span id="qnt_de_professores-label" class="property-label"><g:message code="dadosEscola.qnt_de_professores.label" default="Qntdeprofessores" /></span>
+					<span id="qnt_De_Professores-label" class="property-label"><g:message code="dadosEscola.qnt_De_Professores.label" default="Qnt De Professores" /></span>
 					
-						<span class="property-value" aria-labelledby="qnt_de_professores-label"><g:fieldValue bean="${dadosEscolaInstance}" field="qnt_de_professores"/></span>
+						<span class="property-value" aria-labelledby="qnt_De_Professores-label"><g:fieldValue bean="${dadosEscolaInstance}" field="qnt_De_Professores"/></span>
 					
 				</li>
 				</g:if>
 			
-				<g:if test="${dadosEscolaInstance?.qnt_de_salas}">
+				<g:if test="${dadosEscolaInstance?.qnt_De_Salas}">
 				<li class="fieldcontain">
-					<span id="qnt_de_salas-label" class="property-label"><g:message code="dadosEscola.qnt_de_salas.label" default="Qntdesalas" /></span>
+					<span id="qnt_De_Salas-label" class="property-label"><g:message code="dadosEscola.qnt_De_Salas.label" default="Qnt De Salas" /></span>
 					
-						<span class="property-value" aria-labelledby="qnt_de_salas-label"><g:fieldValue bean="${dadosEscolaInstance}" field="qnt_de_salas"/></span>
+						<span class="property-value" aria-labelledby="qnt_De_Salas-label"><g:fieldValue bean="${dadosEscolaInstance}" field="qnt_De_Salas"/></span>
 					
 				</li>
 				</g:if>

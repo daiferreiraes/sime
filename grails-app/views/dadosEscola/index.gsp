@@ -24,17 +24,17 @@
 			<thead>
 					<tr>
 					
+						<g:sortableColumn property="tipo_De_Escola" title="${message(code: 'dadosEscola.tipo_De_Escola.label', default: 'Tipo De Escola')}" />
+					
 						<g:sortableColumn property="bairro" title="${message(code: 'dadosEscola.bairro.label', default: 'Bairro')}" />
 					
 						<g:sortableColumn property="cidade" title="${message(code: 'dadosEscola.cidade.label', default: 'Cidade')}" />
 					
 						<g:sortableColumn property="estado" title="${message(code: 'dadosEscola.estado.label', default: 'Estado')}" />
 					
-						<g:sortableColumn property="nome_escola" title="${message(code: 'dadosEscola.nome_escola.label', default: 'Nomeescola')}" />
+						<g:sortableColumn property="nome_Escola" title="${message(code: 'dadosEscola.nome_Escola.label', default: 'Nome Escola')}" />
 					
 						<g:sortableColumn property="numero" title="${message(code: 'dadosEscola.numero.label', default: 'Numero')}" />
-					
-						<g:sortableColumn property="qnt_de_alunos" title="${message(code: 'dadosEscola.qnt_de_alunos.label', default: 'Qntdealunos')}" />
 					
 					</tr>
 				</thead>
@@ -42,17 +42,17 @@
 				<g:each in="${dadosEscolaInstanceList}" status="i" var="dadosEscolaInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${dadosEscolaInstance.id}">${fieldValue(bean: dadosEscolaInstance, field: "bairro")}</g:link></td>
+						<td><g:link action="show" id="${dadosEscolaInstance.id}">${fieldValue(bean: dadosEscolaInstance, field: "tipo_De_Escola")}</g:link></td>
+					
+						<td>${fieldValue(bean: dadosEscolaInstance, field: "bairro")}</td>
 					
 						<td>${fieldValue(bean: dadosEscolaInstance, field: "cidade")}</td>
 					
 						<td>${fieldValue(bean: dadosEscolaInstance, field: "estado")}</td>
 					
-						<td>${fieldValue(bean: dadosEscolaInstance, field: "nome_escola")}</td>
+						<td>${fieldValue(bean: dadosEscolaInstance, field: "nome_Escola")}</td>
 					
 						<td>${fieldValue(bean: dadosEscolaInstance, field: "numero")}</td>
-					
-						<td>${fieldValue(bean: dadosEscolaInstance, field: "qnt_de_alunos")}</td>
 					
 					</tr>
 				</g:each>

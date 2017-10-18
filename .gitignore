@@ -1,0 +1,10 @@
+.idea/*
+
+.slcache/*
+
+.idea/workspace.xml
+.slcache/.index
+target/stacktrace.log
+
+
+grails-app/conf/DataSource.groovy

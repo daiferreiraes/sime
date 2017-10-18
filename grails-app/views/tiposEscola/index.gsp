@@ -24,15 +24,11 @@
 			<thead>
 					<tr>
 					
-						<th><g:message code="tiposEscola.tipoEscola.label" default="Tipo Escola" /></th>
-					
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${tiposEscolaInstanceList}" status="i" var="tiposEscolaInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-					
-						<td><g:link action="show" id="${tiposEscolaInstance.id}">${fieldValue(bean: tiposEscolaInstance, field: "tipoEscola")}</g:link></td>
 					
 					</tr>
 				</g:each>

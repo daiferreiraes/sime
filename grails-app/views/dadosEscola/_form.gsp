@@ -2,6 +2,15 @@
 
 
 
+<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'tipo_De_Escola', 'error')} required">
+	<label for="tipo_De_Escola">
+		<g:message code="dadosEscola.tipo_De_Escola.label" default="Tipo De Escola" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select name="tipo_De_Escola" from="${dadosEscolaInstance.constraints.tipo_De_Escola.inList}" required="" value="${dadosEscolaInstance?.tipo_De_Escola}" valueMessagePrefix="dadosEscola.tipo_De_Escola"/>
+
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'bairro', 'error')} required">
 	<label for="bairro">
 		<g:message code="dadosEscola.bairro.label" default="Bairro" />
@@ -29,12 +38,12 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'nome_escola', 'error')} required">
-	<label for="nome_escola">
-		<g:message code="dadosEscola.nome_escola.label" default="Nomeescola" />
+<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'nome_Escola', 'error')} required">
+	<label for="nome_Escola">
+		<g:message code="dadosEscola.nome_Escola.label" default="Nome Escola" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="nome_escola" required="" value="${dadosEscolaInstance?.nome_escola}"/>
+	<g:textField name="nome_Escola" required="" value="${dadosEscolaInstance?.nome_Escola}"/>
 
 </div>
 
@@ -47,30 +56,30 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'qnt_de_alunos', 'error')} required">
-	<label for="qnt_de_alunos">
-		<g:message code="dadosEscola.qnt_de_alunos.label" default="Qntdealunos" />
+<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'qnt_De_Alunos', 'error')} required">
+	<label for="qnt_De_Alunos">
+		<g:message code="dadosEscola.qnt_De_Alunos.label" default="Qnt De Alunos" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:field name="qnt_de_alunos" type="number" value="${dadosEscolaInstance.qnt_de_alunos}" required=""/>
+	<g:field name="qnt_De_Alunos" type="number" value="${dadosEscolaInstance.qnt_De_Alunos}" required=""/>
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'qnt_de_professores', 'error')} required">
-	<label for="qnt_de_professores">
-		<g:message code="dadosEscola.qnt_de_professores.label" default="Qntdeprofessores" />
+<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'qnt_De_Professores', 'error')} required">
+	<label for="qnt_De_Professores">
+		<g:message code="dadosEscola.qnt_De_Professores.label" default="Qnt De Professores" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:field name="qnt_de_professores" type="number" value="${dadosEscolaInstance.qnt_de_professores}" required=""/>
+	<g:field name="qnt_De_Professores" type="number" value="${dadosEscolaInstance.qnt_De_Professores}" required=""/>
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'qnt_de_salas', 'error')} required">
-	<label for="qnt_de_salas">
-		<g:message code="dadosEscola.qnt_de_salas.label" default="Qntdesalas" />
+<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'qnt_De_Salas', 'error')} required">
+	<label for="qnt_De_Salas">
+		<g:message code="dadosEscola.qnt_De_Salas.label" default="Qnt De Salas" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:field name="qnt_de_salas" type="number" value="${dadosEscolaInstance.qnt_de_salas}" required=""/>
+	<g:field name="qnt_De_Salas" type="number" value="${dadosEscolaInstance.qnt_De_Salas}" required=""/>
 
 </div>
 
