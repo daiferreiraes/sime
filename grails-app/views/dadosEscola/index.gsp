@@ -24,8 +24,6 @@
 			<thead>
 					<tr>
 					
-						<g:sortableColumn property="tipo_De_Escola" title="${message(code: 'dadosEscola.tipo_De_Escola.label', default: 'Tipo De Escola')}" />
-					
 						<g:sortableColumn property="bairro" title="${message(code: 'dadosEscola.bairro.label', default: 'Bairro')}" />
 					
 						<g:sortableColumn property="cidade" title="${message(code: 'dadosEscola.cidade.label', default: 'Cidade')}" />
@@ -36,15 +34,15 @@
 					
 						<g:sortableColumn property="numero" title="${message(code: 'dadosEscola.numero.label', default: 'Numero')}" />
 					
+						<g:sortableColumn property="qnt_De_Alunos" title="${message(code: 'dadosEscola.qnt_De_Alunos.label', default: 'Qnt De Alunos')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${dadosEscolaInstanceList}" status="i" var="dadosEscolaInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${dadosEscolaInstance.id}">${fieldValue(bean: dadosEscolaInstance, field: "tipo_De_Escola")}</g:link></td>
-					
-						<td>${fieldValue(bean: dadosEscolaInstance, field: "bairro")}</td>
+						<td><g:link action="show" id="${dadosEscolaInstance.id}">${fieldValue(bean: dadosEscolaInstance, field: "bairro")}</g:link></td>
 					
 						<td>${fieldValue(bean: dadosEscolaInstance, field: "cidade")}</td>
 					
@@ -53,6 +51,8 @@
 						<td>${fieldValue(bean: dadosEscolaInstance, field: "nome_Escola")}</td>
 					
 						<td>${fieldValue(bean: dadosEscolaInstance, field: "numero")}</td>
+					
+						<td>${fieldValue(bean: dadosEscolaInstance, field: "qnt_De_Alunos")}</td>
 					
 					</tr>
 				</g:each>

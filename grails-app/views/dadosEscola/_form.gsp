@@ -2,15 +2,6 @@
 
 
 
-<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'tipo_De_Escola', 'error')} required">
-	<label for="tipo_De_Escola">
-		<g:message code="dadosEscola.tipo_De_Escola.label" default="Tipo De Escola" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:select name="tipo_De_Escola" from="${dadosEscolaInstance.constraints.tipo_De_Escola.inList}" required="" value="${dadosEscolaInstance?.tipo_De_Escola}" valueMessagePrefix="dadosEscola.tipo_De_Escola"/>
-
-</div>
-
 <div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'bairro', 'error')} required">
 	<label for="bairro">
 		<g:message code="dadosEscola.bairro.label" default="Bairro" />
@@ -89,6 +80,15 @@
 		<span class="required-indicator">*</span>
 	</label>
 	<g:textField name="rua" required="" value="${dadosEscolaInstance?.rua}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: dadosEscolaInstance, field: 'tipo_De_Escola', 'error')} required">
+	<label for="tipo_De_Escola">
+		<g:message code="dadosEscola.tipo_De_Escola.label" default="Tipo De Escola" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select id="tipo_De_Escola" name="tipo_De_Escola.id" from="${sime.TiposEscola.list()}" optionKey="id" required="" value="${dadosEscolaInstance?.tipo_De_Escola?.id}" class="many-to-one"/>
 
 </div>
 

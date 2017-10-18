@@ -23,6 +23,15 @@
 			</g:if>
 			<ol class="property-list tiposEscola">
 			
+				<g:if test="${tiposEscolaInstance?.tipo_De_Escola}">
+				<li class="fieldcontain">
+					<span id="tipo_De_Escola-label" class="property-label"><g:message code="tiposEscola.tipo_De_Escola.label" default="Tipo De Escola" /></span>
+					
+						<span class="property-value" aria-labelledby="tipo_De_Escola-label"><g:fieldValue bean="${tiposEscolaInstance}" field="tipo_De_Escola"/></span>
+					
+				</li>
+				</g:if>
+			
 			</ol>
 			<g:form url="[resource:tiposEscolaInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">

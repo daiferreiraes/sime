@@ -23,15 +23,6 @@
 			</g:if>
 			<ol class="property-list dadosEscola">
 			
-				<g:if test="${dadosEscolaInstance?.tipo_De_Escola}">
-				<li class="fieldcontain">
-					<span id="tipo_De_Escola-label" class="property-label"><g:message code="dadosEscola.tipo_De_Escola.label" default="Tipo De Escola" /></span>
-					
-						<span class="property-value" aria-labelledby="tipo_De_Escola-label"><g:fieldValue bean="${dadosEscolaInstance}" field="tipo_De_Escola"/></span>
-					
-				</li>
-				</g:if>
-			
 				<g:if test="${dadosEscolaInstance?.bairro}">
 				<li class="fieldcontain">
 					<span id="bairro-label" class="property-label"><g:message code="dadosEscola.bairro.label" default="Bairro" /></span>
@@ -109,6 +100,15 @@
 					<span id="rua-label" class="property-label"><g:message code="dadosEscola.rua.label" default="Rua" /></span>
 					
 						<span class="property-value" aria-labelledby="rua-label"><g:fieldValue bean="${dadosEscolaInstance}" field="rua"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${dadosEscolaInstance?.tipo_De_Escola}">
+				<li class="fieldcontain">
+					<span id="tipo_De_Escola-label" class="property-label"><g:message code="dadosEscola.tipo_De_Escola.label" default="Tipo De Escola" /></span>
+					
+						<span class="property-value" aria-labelledby="tipo_De_Escola-label"><g:link controller="tiposEscola" action="show" id="${dadosEscolaInstance?.tipo_De_Escola?.id}">${dadosEscolaInstance?.tipo_De_Escola?.encodeAsHTML()}</g:link></span>
 					
 				</li>
 				</g:if>

@@ -24,11 +24,15 @@
 			<thead>
 					<tr>
 					
+						<g:sortableColumn property="tipo_De_Escola" title="${message(code: 'tiposEscola.tipo_De_Escola.label', default: 'Tipo De Escola')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${tiposEscolaInstanceList}" status="i" var="tiposEscolaInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
+					
+						<td><g:link action="show" id="${tiposEscolaInstance.id}">${fieldValue(bean: tiposEscolaInstance, field: "tipo_De_Escola")}</g:link></td>
 					
 					</tr>
 				</g:each>
